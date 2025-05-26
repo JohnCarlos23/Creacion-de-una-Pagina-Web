@@ -1,21 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creacion de una pagina web </title>
+  <meta charset="UTF-8">
+  <title>Mi Primera Página</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      background-color: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
 
-    <!--Esto es un comentario-->
-    <h1> Hola Mundo 2025 </h1>
-    <h2> Hola Mundo 2025 </h2>
-    <h3> Hola Mundo 2025 </h3>
-    <h4> Hola Mundo 2025 </h4>
-    <h5> Hola Mundo 2025 </h5>
+  <header>
+    <h1>Bienvenido a Mi Página</h1>
+    <nav>
+      <a href="#inicio">Inicio</a> |
+      <a href="#servicios">Servicios</a> |
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
 
-    <!-- Parrafo -->
-    <etiqueta id="idEtiqueta" class="mt-4" style="color: red;"> CONTENIDO </etiqueta>
-    
+  <main>
+    <section id="inicio">
+      <h2>Inicio</h2>
+      <p>Esta es mi primera página web creada con HTML.</p>
+    </section>
+
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Diseño Web</li>
+        <li>Desarrollo Frontend</li>
+        <li>Asesorías Personalizadas</li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Puedes escribirme a: <a href="mailto:correo@ejemplo.com">correo@ejemplo.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mi Página Web</p>
+  </footer>
+
 </body>
 </html>
